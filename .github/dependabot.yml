@@ -1,0 +1,16 @@
+---
+version: 2
+
+registries:
+ version-source-mod1:
+   type: terraform-registry
+   url: git::https://github.com/viccro/version-source/ #/module1
+   # token: ${{ secrets.SPACELIFT_TOKEN }}
+
+updates:
+ - package-ecosystem: "terraform"
+   directory: "/module1"
+   registries:
+     - version-source-mod1
+   schedule:
+     interval: "daily"
