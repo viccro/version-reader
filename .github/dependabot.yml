@@ -5,7 +5,7 @@ registries:
  version-source-mod1:
    type: terraform-registry
    url: git::https://github.com/viccro/version-source/ #/module1
-   # token: ${{ secrets.SPACELIFT_TOKEN }}
+   token: ${{ secrets.VERSION_SOURCE_TOKEN}}
 
 updates:
  - package-ecosystem: "terraform"
