@@ -10,3 +10,7 @@ updates:
     directory: "terraform/module2/"
     schedule: 
       interval: "daily"      
+  - package-ecosystem: "terraform"
+    directory: "terraform/module3/"
+    schedule: 
+      interval: "daily" 
