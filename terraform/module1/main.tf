@@ -3,6 +3,16 @@ module "hello1" {
   name   = "vicki"
 }
 
-output "reader-output" {
+module "tf-reg" {
+  source  = "viccro/version-source/viccro//module1"
+  version = "0.0.2-mod1"
+  name    = "amber"
+}
+
+output "gh-output" {
   value = module.hello1.hello_world
+}
+
+output "tf-reg-output" {
+  value = module.tf-reg.hello_world
 }

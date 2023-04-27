@@ -2,10 +2,11 @@
 version: 2
 
 registries:
- version-source-mod1:
+  version-source-mod1:
    type: terraform-registry
    url: https://github.com/viccro/version-source//module1
    token: ${{ secrets.VERSION_SOURCE_TOKEN}}
+  extraneous-
 
 updates:
  - package-ecosystem: "terraform"
