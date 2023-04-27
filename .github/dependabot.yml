@@ -3,8 +3,10 @@ version: 2
 
 updates:
   - package-ecosystem: "terraform"
-    directory: 
-      - "terraform/module1/"
-      - "terraform/module2/"
+    directory: "terraform/module1/"
     schedule: 
       interval: "daily"
+  - package-ecosystem: "terraform"
+    directory: "terraform/module2/"
+    schedule: 
+      interval: "daily"      
