@@ -14,8 +14,8 @@ registries:
 updates:
   - package-ecosystem: "terraform"
     directory: "terraform/module1/"
-    registries:
-      - version-source-tf-reg-mod1
+    # registries:
+    #   - version-source-tf-reg-mod1
     schedule: 
       interval: "daily"
       
