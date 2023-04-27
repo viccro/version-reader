@@ -6,10 +6,10 @@ registries:
   #  type: terraform-registry
   #  url: https://github.com/viccro/version-source//module1
   #  token: ${{ secrets.VERSION_SOURCE_TOKEN}}
-  version-source-tf-reg-mod1:
-    type: terraform-registry
-    url: https://registry.terraform.io
-    token: ${{ secrets.VERSION_SOURCE_TOKEN}}
+  # version-source-tf-reg-mod1:
+  #   type: terraform-registry
+  #   url: https://registry.terraform.io
+  #   token: ${{ secrets.VERSION_SOURCE_TOKEN}}
 
 updates:
   - package-ecosystem: "terraform"
