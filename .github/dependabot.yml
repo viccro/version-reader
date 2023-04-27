@@ -1,29 +1,10 @@
 ---
 version: 2
 
-# registries:
-  # version-source-gh-mod1:
-  #  type: terraform-registry
-  #  url: https://github.com/viccro/version-source//module1
-  #  token: ${{ secrets.VERSION_SOURCE_TOKEN}}
-  # version-source-tf-reg-mod1:
-  #   type: terraform-registry
-  #   url: https://registry.terraform.io
-  #   token: ${{ secrets.VERSION_SOURCE_TOKEN}}
-
 updates:
   - package-ecosystem: "terraform"
-    directory: "terraform/module1/"
-    # registries:
-    #   - version-source-tf-reg-mod1
+    directory: 
+      - "terraform/module1/"
+      - "terraform/module2/"
     schedule: 
       interval: "daily"
-      
-
-# updates:
-#  - package-ecosystem: "terraform"
-#    directory: "/module1"
-#    registries:
-#      - version-source-gh-mod1
-#    schedule:
-#      interval: "daily"
