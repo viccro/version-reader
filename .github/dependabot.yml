@@ -13,7 +13,7 @@ registries:
 
 updates:
   - package-ecosystem: "terraform"
-    directory: "/modules/viccro/version-source/viccro"
+    directory: "terraform/module1/"
     registries:
       - version-source-tf-reg-mod1
     schedule: 
