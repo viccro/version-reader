@@ -1,7 +1,7 @@
 ---
 version: 2
 
-registries:
+# registries:
   # version-source-gh-mod1:
   #  type: terraform-registry
   #  url: https://github.com/viccro/version-source//module1
