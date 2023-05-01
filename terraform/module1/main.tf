@@ -1,5 +1,5 @@
 module "hello1" {
-  source = "git::https://github.com/viccro/version-source//module1?ref=v0.0.1-mod1"
+  source = "git::https://github.com/viccro/version-source//module1?ref=mod1-v0.0.1"
   name   = "vicki"
 }
 
